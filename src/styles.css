@@ -1,7 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&family=Maven+Pro&family=Molengo&family=Varela&display=swap');
 
-body {
-    align-items: center;
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Molengo', sans-serif;
+font-family: 'Varela', sans-serif; */
+
+body, html {
+    text-align: center;
+    font-family: 'Molengo', sans-serif;
     
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* html, body {
+    height: 100%;
+} */
+
+/* html {
+    display: table;
+    margin: auto;
+} */
+
+/* body {
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+.spacer {
+    height: 100px;
 }

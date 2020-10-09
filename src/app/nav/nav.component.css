@@ -5,7 +5,7 @@ header {
     background-size: cover;
 }
 
-.content {
+/* .content {
     width: 94%;
     margin: 4em auto;
     font-size: 20px;
@@ -68,4 +68,13 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: none;
+}
+ */
+
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+
 }
