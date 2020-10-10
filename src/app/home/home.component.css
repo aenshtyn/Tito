@@ -3,8 +3,15 @@
     height: 100vh;
     background: url(https://www.eastafricasafariventures.com/wp-content/uploads/2015/02/Nairobi_night_skyline_at_dusk_-1.jpg) no-repeat 50% 50%;
     background-size: cover;
+    filter: blur(2px);
 }
  .spacer {
 
     height: 50px;
  }
+
+ .heroContents {
+	padding-top: 205px;
+	text-align: center;
+	color: white;
+}
