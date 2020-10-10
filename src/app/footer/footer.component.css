@@ -1,5 +1,10 @@
-.footer {
+footer {
 
-    background-color: darkgrey;
-    height: 100px;
+    background-color: #181717;
+    color: aqua;
+
+}
+
+h6, a {
+    color: aqua;
 }

@@ -3,11 +3,12 @@
 <div class="container">
   <h1><strong>Areas of Expertise</strong></h1>
   <div class="row">
-    <div class="col-md-3" *ngFor='let expertise of expertises; let i = index'>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src= '{{expertise.image}}' alt="Card image cap">
+    <div class="col-lg-3 d-flex align-self" *ngFor='let expertise of expertises; let i = index'>
+      <div class="card mb-3">
+        
+        <img style="height: 200px; width: 100%; display: block;"  src= '{{expertise.image}}' alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">{{expertise.name}}</h5>
+          <h5 class="card-title  d-flex align-items-center justify-content-center h-50">{{expertise.name}}</h5>
           <p class="card-text"> {{ expertise.description }}.</p>
         </div>
       </div>
@@ -17,3 +18,6 @@
   </div>
 
 </div>
+
+
+
