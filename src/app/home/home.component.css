@@ -10,16 +10,18 @@
 }
 
  .heroContents {
-	padding-top: 300px;
+	padding-top: 270px;
 	text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
     font-weight: bolder;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .herOverlay {
 	height: 673px;
-	background-color: RGBA(15, 5, 20, 0.84);
+	background-color: RGBA(231, 111, 83, .8);
 }
 
 

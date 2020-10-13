@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
@@ -29,6 +30,7 @@ import { ClientComponent } from './client/client.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    LoadingBarRouterModule,
     NgProgressModule.forRoot(),
     NgProgressHttpClientModule
   ],
