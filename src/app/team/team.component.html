@@ -1,7 +1,7 @@
 <div class="spacer"></div>
 
 <div class="container">
-    <h1><strong>The Team</strong></h1>
+    <h1><strong>Partners</strong></h1>
     <div class="row">
         <div class="col-md-3 d-flex align-self" *ngFor='let team of teams; let i = index' >
 
@@ -10,7 +10,7 @@
 
 
           <div class="card mb-3">
-            <!-- <h3 class="card-header d-flex align-items-center justify-content-center h-50">{{team.name}}</h3> -->
+            <!-- <h3 class="card-header d-flex align-items-center justify-content-center h-50">{{team.rank}}</h3> -->
         
             <img style="height: 200px; width: 100%; display: block;" src= '{{ team.image }}' alt="Card image">
             <div class="card-body">
@@ -37,5 +37,41 @@
             </div>
 
         </div>
+        <h1><strong>Associates</strong></h1>
+        <div class="row">
+          <div class="col-md-3 d-flex align-self" *ngFor='let team of teams; let i = index' >
+  
+  
+  
+  
+  
+            <div class="card mb-3">
+              <!-- <h3 class="card-header d-flex align-items-center justify-content-center h-50">{{team.rank}}</h3> -->
+          
+              <img style="height: 200px; width: 100%; display: block;" src= '{{ team.image }}' alt="Card image">
+              <div class="card-body">
+                <p class="card-text">{{team.name}}</p>
+              </div>
+              <!-- <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul> -->
+              <!-- <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div> -->
+              <!-- <div class="card-footer text-muted">
+                2 days ago
+              </div> -->
+            </div>
+  
+  
+  
+             
+                 
+              </div>
+  
+          </div>
 
     </div>

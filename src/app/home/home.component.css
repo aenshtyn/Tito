@@ -1,14 +1,46 @@
-.hero {
+.heroImage {
     width: 100%;
     height: 100vh;
     background: url(https://www.eastafricasafariventures.com/wp-content/uploads/2015/02/Nairobi_night_skyline_at_dusk_-1.jpg) no-repeat 50% 50%;
     background-size: cover;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     position: relative;
 }
 
  .heroContents {
-	/* padding-top: 205px; */
+	padding-top: 300px;
 	text-align: center;
-	color: white;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h3 {
+   color:#e76f51ff;
+
+
+}
+
+.success {
+    color: #2a9d8fff;;
+}
+
+.aboutButton {
+    background-color: #264653ff;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    align-items: left;
+    font-weight: bold;
+  }
+
+  .aboutButton:hover {
+    background-color: #e76f51ff;
+  }
+  
+h1 {
+    color: white;
+    font-weight: bolder;
 }

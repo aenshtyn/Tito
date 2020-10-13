@@ -10,8 +10,9 @@ export class TeamComponent implements OnInit {
 
   teams:Team [] = [
 
-  {id:1, name:'John Tito',image:'../assets/img/jjtito.jpg'},
-  {id:2, name:'Mohamed Abdullahi', image:'../assets/img/moha.jpg'},
+  {id:1, name:'John Tito',image:'../assets/img/jjtito.jpg', rank:'Partner'},
+  {id:2, name:'Mohamed Abdullahi', image:'../assets/img/moha.jpg', rank:'Associate'},
+  
 
 
 

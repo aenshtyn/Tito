@@ -1,10 +1,44 @@
-footer {
+footer{
+    background: #264653ff;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-size: small;
+    font-family: 'Varela', sans-serif;
 
-    background-color: #181717;
-    color: aqua;
+
+    /* color: #e76f51ff; */
+    color: #a8dadc
 
 }
 
-h6, a {
-    color: aqua;
+h6 {
+    color:#e76f51ff;
+}
+
+a {
+
+    color: #a8dadc
+}
+p{
+    align-items: center;
+}
+
+hr {
+
+    height: .5px;
+    background-color:#e76f51ff!important;
+    border: none;
+}
+.footer-copyright {
+    padding-bottom: 5px;
+}
+.footer-copyright p{
+    font-size: x-small;
+    
+}
+
+.footer-copyright a{
+    color:#e76f51ff!important;
+    font-size: x-small;
+    
 }

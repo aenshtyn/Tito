@@ -18,24 +18,32 @@ nav {
     padding: 0;
     text-align: right;
     margin:0;
-    padding-right: 10px;
+    padding-right: 0px;
     transition: 1100ms;
     -webkit-box-shadow: -1px 24px 30px -17px rgba(0,0,0,0.39);
--moz-box-shadow: -1px 24px 30px -17px rgba(0,0,0,0.39);
-box-shadow: -1px 24px 30px -17px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 24px 30px -17px rgba(0,0,0,0.39);
+    box-shadow: -1px 24px 30px -17px rgba(0,0,0,0.39);
+}
+
+nav a:hover {
+    color: #e76f51ff;
 }
 
 nav.black {
-    background: #ffb700!important;
+    background: #264653ff!important;
     opacity: .8;
 
 }
 
 nav.black a{
  
-    color: #393b8f;
+    color: #e76f51ff;
 }
 
+nav.black a:hover {
+
+    color: white;
+}
 /* nav ul li {
     display: inline-block;
     padding: 16px 40px;;
