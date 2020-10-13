@@ -17,3 +17,6 @@ $(window).on("scroll", function() {
 })
 
 
+$('.js-scroll-trigger').click(function() {
+      $('.navbar-collapse').collapse('hide');
+      });

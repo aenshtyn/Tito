@@ -1,7 +1,7 @@
 <div class="spacer"></div>
 <!-- 
 <div class="container">
-  <h1><strong>Areas of Expertise</strong></h1>
+
   <div class="row">
     <div class="col-md-3 d-flex align-self" *ngFor='let expertise of expertises; let i = index'>
       <div class="card mb-1">
@@ -20,6 +20,8 @@
 </div> -->
 <div class="container">
 
+  <h4>Areas of Expertise</h4>
+
 <div class="row">
 
   <div class="col-md-3" *ngFor='let expertise of expertises; let i = index'>
@@ -31,10 +33,10 @@
     <h6 class="card-subtitle text-muted">Support card subtitle</h6>
   </div> -->
       <img style="height: 200px; width: 100%; display: block;" src='{{expertise.image}}' alt="Card image">
-
-      <h5 class="card-header align-self-center">{{expertise.name}}</h5>
       <div class="card-body">
-        <p class="card-text"> {{expertise.description}}</p>
+     
+      
+        <p class="card-text" style = "display: block;"> {{expertise.name}}</p>
       </div>
 
 

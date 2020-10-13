@@ -3,20 +3,25 @@
     height: 100px;
 }
 
-.cards {
+.card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
  }
-
+ .card-body {
+    
+        padding: 10px;
+        background-color: #fff;
+        flex: 1;                /* new */
+    
+ }
  a {
      color: #264653ff;;
  }
 
  .card:hover {
-    background: rgb(141, 141, 141);
     display: block;
-    transition: 2000ms;
+    transition: 500ms;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-color: #e76f51ff;
   
@@ -24,6 +29,7 @@
 
  }
 
- a:hover {
-    color: rgb(255, 255, 255);;
-}
+
+ .row {
+     flex-wrap: wrap;
+ }

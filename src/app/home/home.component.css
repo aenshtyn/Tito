@@ -13,15 +13,15 @@
 	padding-top: 270px;
 	text-align: center;
     color: white;
-    font-size: 60px;
     font-weight: bolder;
     padding-left: 100px;
     padding-right: 100px;
+    font-size:4vw;
 }
 
 .herOverlay {
 	height: 673px;
-	background-color: RGBA(231, 111, 83, .8);
+	background-color: RGBA(15, 5, 20, 0.8);
 }
 
 
@@ -29,9 +29,9 @@ h3 {
    color:#e76f51ff;
 }
 
-.success {
+/* .success {
     color: #2a9d8fff;;
-}
+} */
 
 .aboutButton {
     background-color: #264653ff;
@@ -44,11 +44,20 @@ h3 {
     font-weight: bold;
   }
 
-  .aboutButton:hover {
-    background-color: #e76f51ff;
-  }
+
   
 h1 {
     color: white;
     font-weight: bolder;
 }
+
+button:hover{
+    border-color: #e76f51ff;
+    background-color: #e76f51ff;
+}
+
+button {
+    border-color: #264653ff;
+    background-color: #264653ff;
+    color: white;
+  }

@@ -1,6 +1,6 @@
 footer{
     background: #264653ff;
-    padding-top: 10px;
+    padding-top: px;
     padding-bottom: 0;
     font-size: small;
     font-family: 'Varela', sans-serif;
@@ -13,6 +13,7 @@ footer{
 
 h6 {
     color:#e76f51ff;
+    padding-top: 10px;
 }
 
 a {
