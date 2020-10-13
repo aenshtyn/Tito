@@ -23,6 +23,7 @@
     "@ngx-progressbar/http-client": "^3.0.2",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
+    "ngx-progressbar": "^6.0.3",
     "popper": "^1.0.1",
     "rxjs": "~6.6.0",
     "rxjs-compat": "^6.6.3",
