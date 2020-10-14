@@ -14,7 +14,7 @@ nav {
     list-style: none;
     background: rgba(136, 128, 128, 0);
     overflow: hidden;
-    color: #eec661;
+    /* color: #eec661; */
     padding: 0;
     text-align: right;
     margin:0;
