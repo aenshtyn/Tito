@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'about', component:AboutComponent},
   {path: 'client', component:ClientComponent},
 
-  { path: '', redirectTo:"/home", pathMatch:"full"}
+  { path: '', redirectTo: 'home', pathMatch:"prefix"},
+  // { path: '**', component: 'pageNotFoundComponent' },
 ];
 
 @NgModule({
